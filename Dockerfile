@@ -4,3 +4,4 @@ RUN echo 'deb https://download.opensuse.org/repositories/devel:/kubic:/libcontai
     curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/Debian_10/Release.key | apt-key add - && \
     apt-get update -qq && \
     apt-get -qq -y install slirp4netns fuse-overlayfs podman
+USER jenkins
