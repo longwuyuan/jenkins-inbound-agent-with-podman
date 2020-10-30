@@ -1,2 +1,2 @@
-# jenkins-inbound-agent-with-podman
-- Jenkins agent image based on jenkins/inbound-agent but with podman installed on top
+# INTRODUCTION 
+- Podman installed in a ubuntu:latest base image
